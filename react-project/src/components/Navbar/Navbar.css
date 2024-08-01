@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  background-color: black;
+}
+
+.navbar-titulo {
+  color: antiquewhite;
+  font-size: 20px;
+}
+
+.navbar-links ul {
+  list-style: none;
+}
+
+.navbar-links li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: antiquewhite;
+}
