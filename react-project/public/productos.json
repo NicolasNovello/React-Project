@@ -3,53 +3,59 @@
     "id": 1,
     "name": "Iron Man",
     "price": 5000,
-    "img": "",
+    "img": "/assets/img/ironman.webp",
     "stock": 10,
-    "description": "Funko Pop de Iron Man"
+    "description": "Funko Pop de Iron Man",
+    "category": "Marvel"
   },
 
   {
     "id": 2,
-    "name": "Hulk",
+    "name": "Spider-Man",
     "price": 5000,
-    "img": "",
+    "img": "/assets/img/spiderman.webp",
     "stock": 10,
-    "description": "Funko Pop de Hulk"
+    "description": "Funko Pop de Spider-Man",
+    "category": "Marvel"
   },
 
   {
     "id": 3,
-    "name": "Capitan America",
+    "name": "Batman",
     "price": 5000,
-    "img": "",
+    "img": "/assets/img/batman.webp",
     "stock": 10,
-    "description": "Funko Pop del Capitan America"
+    "description": "Funko Pop del Batman",
+    "category": "DC"
   },
 
   {
     "id": 4,
-    "name": "Thor",
+    "name": "SuperMan",
     "price": 5000,
-    "img": "",
+    "img": "/assets/img/superman.webp",
     "stock": 10,
-    "description": "Funko Pop de Thor"
+    "description": "Funko Pop de SuperMan",
+    "category": "DC"
   },
 
   {
     "id": 5,
-    "name": "Black Widow",
+    "name": "Goku",
     "price": 5000,
-    "img": "",
+    "img": "/assets/img/goku.webp",
     "stock": 10,
-    "description": "Funko Pop de Black Widow"
+    "description": "Funko Pop de Goku",
+    "category": "Dragon Ball"
   },
 
   {
     "id": 6,
-    "name": "Hawkeye",
+    "name": "Freezer",
     "price": 5000,
-    "img": "",
+    "img": "/assets/img/frieza.webp",
     "stock": 10,
-    "description": "Funko Pop de Hawkeye"
+    "description": "Funko Pop de Freezer",
+    "category": "Dragon Ball"
   }
 ]

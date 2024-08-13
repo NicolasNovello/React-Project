@@ -8,11 +8,12 @@
 
 .navbar-titulo {
   color: antiquewhite;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .navbar-links ul {
   list-style: none;
+  margin-left: -190px;
 }
 
 .navbar-links li {
