@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Iron Man",
+    "price": 5000,
+    "img": "",
+    "stock": 10,
+    "description": "Funko Pop de Iron Man"
+  },
+
+  {
+    "id": 2,
+    "name": "Hulk",
+    "price": 5000,
+    "img": "",
+    "stock": 10,
+    "description": "Funko Pop de Hulk"
+  },
+
+  {
+    "id": 3,
+    "name": "Capitan America",
+    "price": 5000,
+    "img": "",
+    "stock": 10,
+    "description": "Funko Pop del Capitan America"
+  },
+
+  {
+    "id": 4,
+    "name": "Thor",
+    "price": 5000,
+    "img": "",
+    "stock": 10,
+    "description": "Funko Pop de Thor"
+  },
+
+  {
+    "id": 5,
+    "name": "Black Widow",
+    "price": 5000,
+    "img": "",
+    "stock": 10,
+    "description": "Funko Pop de Black Widow"
+  },
+
+  {
+    "id": 6,
+    "name": "Hawkeye",
+    "price": 5000,
+    "img": "",
+    "stock": 10,
+    "description": "Funko Pop de Hawkeye"
+  }
+]
