@@ -1,6 +1,6 @@
 import React from "react";
 
-const Item = ({ item }) => {
+const ProductItem = ({ item }) => {
   return (
     <div key={item.id}>
       <img src={item.img} alt={item.name} />
@@ -12,4 +12,4 @@ const Item = ({ item }) => {
   );
 };
 
-export default Item;
+export default ProductItem;
