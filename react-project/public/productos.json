@@ -46,7 +46,7 @@
     "img": "/assets/img/goku.webp",
     "stock": 30,
     "description": "Funko Pop de Goku",
-    "category": "Dragon Ball"
+    "category": "DragonBall"
   },
 
   {
@@ -56,6 +56,6 @@
     "img": "/assets/img/frieza.webp",
     "stock": 28,
     "description": "Funko Pop de Freezer",
-    "category": "Dragon Ball"
+    "category": "DragonBall"
   }
 ]
