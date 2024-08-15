@@ -10,16 +10,13 @@ const Navbar = () => {
         <div className="navbar-links">
           <ul>
             <li>
-              <a href="#">Inicio</a>
+              <a href="#">MARVEL</a>
             </li>
             <li>
-              <a href="#">Nosotros</a>
+              <a href="#">DC</a>
             </li>
             <li>
-              <a href="#">Catalogo</a>
-            </li>
-            <li>
-              <a href="#">Contacto</a>
+              <a href="#">DRAGON BALL</a>
             </li>
           </ul>
         </div>
