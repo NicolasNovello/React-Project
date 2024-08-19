@@ -8,7 +8,9 @@
 
 .navbar-titulo {
   color: antiquewhite;
-  font-size: 25px;
+  font-size: 35px;
+  text-decoration: none;
+  list-style: none;
 }
 
 .navbar-links ul {
