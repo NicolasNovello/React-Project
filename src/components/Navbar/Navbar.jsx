@@ -13,13 +13,19 @@ const Navbar = () => {
         <div className="navbar-links">
           <ul>
             <li>
-              <Link to="/category/Marvel">MARVEL</Link>
+              <NavLink to="/category/Marvel" activeClassName="active">
+                MARVEL
+              </NavLink>
             </li>
             <li>
-              <Link to="/category/DC">DC</Link>
+              <NavLink to="/category/DC" activeClassName="active">
+                DC
+              </NavLink>
             </li>
             <li>
-              <Link to="/category/DragonBall">DRAGON BALL</Link>
+              <NavLink to="/category/DragonBall" activeClassName="active">
+                DRAGON BALL
+              </NavLink>
             </li>
           </ul>
         </div>
