@@ -4,11 +4,13 @@ import { ItemCount } from "../ItemCount/ItemCount";
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext/CartProvider";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 const ItemDetail = ({ product }) => {
   const { addItem } = useContext(CartContext);
-
+  const [showItemCount, setShowItemCount] = useState(true);
   const onAdd = (quantity) => {
     addItem(product, quantity);
+    setShowItemCount(false);
   };
   return (
     <div className="container2">
@@ -23,8 +25,11 @@ const ItemDetail = ({ product }) => {
         <p>Categoria:{product.category}</p>
       </div>
       <div>
-        <ItemCount initial={1} stock={product.stock} onAdd={onAdd} />
-        <Link to="/cart">Terminar compra</Link>
+        {showItemCount ? (
+          <ItemCount initial={1} stock={product.stock} onAdd={onAdd} />
+        ) : (
+          <Link to="/cart">Terminar compra</Link>
+        )}
       </div>
     </div>
   );

@@ -1,24 +1,22 @@
 import { useState, useEffect } from "react";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
+import { getFirestore, doc, getDoc } from "firebase/firestore";
+
 const ItemDetailContainer = () => {
   const [product, setProduct] = useState([]);
   const { id } = useParams();
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch("/productos.json");
-        const data = await response.json();
-        const newPrd = data.find((p) => p.id == id);
-        setProduct(newPrd);
-      } catch (error) {
-        console.log(error);
-      }
-    };
+    const db = getFirestore();
+    const newDoc = doc(db, "products", id);
 
-    fetchData();
-  }, [id]);
+    getDoc(newDoc).then((res) => {
+      const data = res.data();
+      const newProduct = { id: res.id, ...data };
+      setProduct(newProduct);
+    });
+  }, []);
 
   return (
     <div className="fondo">
