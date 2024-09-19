@@ -13,17 +13,32 @@ const Navbar = () => {
         <div className="navbar-links">
           <ul>
             <li>
-              <NavLink to="/category/Marvel" activeClassName="active">
+              <NavLink
+                to="/category/Marvel"
+                className={({ isActive }) =>
+                  isActive ? "link active" : "link"
+                }
+              >
                 MARVEL
               </NavLink>
             </li>
             <li>
-              <NavLink to="/category/DC" activeClassName="active">
+              <NavLink
+                to="/category/DC"
+                className={({ isActive }) =>
+                  isActive ? "link active" : "link"
+                }
+              >
                 DC
               </NavLink>
             </li>
             <li>
-              <NavLink to="/category/DragonBall" activeClassName="active">
+              <NavLink
+                to="/category/DragonBall"
+                className={({ isActive }) =>
+                  isActive ? "link active" : "link"
+                }
+              >
                 DRAGON BALL
               </NavLink>
             </li>

@@ -1,0 +1,9 @@
+.containeer h3 {
+  text-align: center;
+}
+.containeer form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 30px;
+}
